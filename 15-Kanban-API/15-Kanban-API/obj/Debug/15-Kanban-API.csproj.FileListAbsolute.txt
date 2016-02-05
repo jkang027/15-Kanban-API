@@ -92,3 +92,6 @@ C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\Newtonsoft.Json.xml
 C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Net.Http.Formatting.xml
 C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Web.Http.xml
 C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Web.Http.WebHost.xml
+C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Web.Cors.dll
+C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Web.Http.Cors.dll
+C:\dev\origin\15-Kanban-API\15-Kanban-API\15-Kanban-API\bin\System.Web.Http.Cors.xml
