@@ -19,7 +19,7 @@
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" ng-repeat="list in lists">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" ng-repeat="list in data.lists">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <div ng-show="list.Edit">
@@ -32,7 +32,7 @@
                                 <span ng-click="list.Edit = true">
                                     {{list.Name}}
                                 </span>
-                                <button style="float: right" class="btn btn-xs" type="button" ng-click="deleteList(list)">
+                                <button style="float: right" class="btn btn-xs" type="button" ng-click="removeList(list)">
                                     <i class="fa fa-minus-circle"></i>
                                 </button>
                             </div>
@@ -41,7 +41,7 @@
                             <div class="panel-default">
                                 <div class="panel-body">    
                                     {{card.Text}}
-                                    <button style="float: right" class="btn btn-xs" type="button" ng-click="deleteCard(card)">
+                                    <button style="float: right" class="btn btn-xs" type="button" ng-click="removeCard(card)">
                                         <i class="fa fa-minus-circle"></i>
                                     </button>
                                 </div>
@@ -63,7 +63,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <div class="input-group">
-                                <input type="text" class="form-control" ng-model="newList.Name" placeholder="Add List...">
+                                <input type="text" class="form-control" ng-model="data.newList.Name" placeholder="Add List...">
                                 <span class="input-group-btn">
                                     <button class="btn btn-default" type="button" ng-click="addList()">
                                         <i class="fa fa-plus"></i>
